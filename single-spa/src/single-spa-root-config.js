@@ -22,9 +22,9 @@ registerApplication({
 });
 
 registerApplication({
-  name: "@jrdev/react-parcel",
-  app: () => System.import("@jrdev/react-parcel"),
-  activeWhen: (location) => location.pathname === '/react-parcel',
+  name: "@jrdev/react-form",
+  app: () => System.import("@jrdev/react-form"),
+  activeWhen: (location) => location.pathname === '/react-form',
 });
 
 
