@@ -18,7 +18,7 @@ registerApplication({
 registerApplication({
   name: "@jrdev/react-multiples",
   app: () => System.import("@jrdev/react-multiples"),
-  activeWhen: (location) => location.pathname === '/react-multiples',
+  activeWhen: ['/react-multiples'],
 });
 
 start({
