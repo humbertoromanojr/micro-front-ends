@@ -16,6 +16,13 @@ registerApplication({
   activeWhen: (location) => location.pathname === '/react-single',
 });
 
+registerApplication({
+  name: "@jrdev/react-multiples",
+  app: () =>
+    System.import("@jrdev/react-multiples"),
+  activeWhen: (location) => location.pathname === '/react-multiples',
+});
+
 start({
   urlRerouteOnly: true,
 });
