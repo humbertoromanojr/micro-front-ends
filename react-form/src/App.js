@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { v4 as uuid } from 'uuid'
 import Parcel from 'single-spa-react/parcel'
 
 const App = ({ name }) => {
@@ -11,7 +12,13 @@ const App = ({ name }) => {
   const handleSubmit = event => {
     event.preventDefault()
 
-    console.log('SAVING...')
+    dispatchEvent(new CustomEvent(
+      '@jrdev/react-form/todo/add-task',
+      {detail: {
+        id: uuid(),
+        describe: task,
+      }}
+    ))
 
     updateTask('')
   }
