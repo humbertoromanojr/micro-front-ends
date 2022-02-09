@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
+import { listenEvent } from '@jrdev/utils'
 
 const App = () => {
   const [tasks, updateTasks] = useState([])
 
   useEffect(() => {
-    window.addEventListener('@jrdev/react-form/todo/add-task', event => {
+    listenEvent('@jrdev/react-form/todo/add-task', event => {
       updateTasks(oldTasks => [
         ...oldTasks,
         event.detail,
