@@ -29,7 +29,7 @@ MICROFRONTENDS with REACT and SINGLE-SPA
 Copy project to repository
 `git clone https://github.com/humbertoromanojr/micro-front-ends.git`
 
-Install node_modules
+Install node_modules on all microfrontends
 `npm or yarn install`
 
 Start Bundle
