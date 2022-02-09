@@ -36,7 +36,7 @@ registerApplication({
 registerApplication({
   name: "@jrdev/react-header",
   app: () => System.import("@jrdev/react-header"),
-  activeWhen: (location) => location.pathname === '/react-header',
+  activeWhen: ['/'],
 });
 
 start({
