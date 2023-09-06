@@ -58,8 +58,8 @@ This project is licensed under the MIT License - see the [LICENSE](https://opens
 :guitar: JR Dev :guitar:
 <br />
 
-LinkedIn: https://www.linkedin.com/in/junior-dev <br />
-GitLab: https://gitlab.com/hjrdev <br />
+LinkedIn: [Linkedin](https://www.linkedin.com/in/humbertoromanojr) <br />
+GitLab: [Gitlab](https://gitlab.com/humbertoromanojr) <br />
 Email: astronomi@gmail.com <br />
 <br />
 
